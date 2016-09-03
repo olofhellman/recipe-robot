@@ -962,6 +962,7 @@ def inspect_download_url(input_path, args, facts):
                 status = r"    {0:.2%}".format(p)
                 status = status + chr(8)*(len(status)+1)
                 if not args.app_mode:
+                    sys.stdout.flush()
                     sys.stdout.write(status)
     robo_print("Downloaded to %s" % os.path.join(
         CACHE_DIR, filename), LogLevel.VERBOSE, 4)
