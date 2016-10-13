@@ -1,30 +1,29 @@
-# Development files, not ready to commit
-development
-
 # Markdown preview
-README.html
 CHANGELOG.html
+CHANGELOG.pdf
 DEVNOTES.html
+DEVNOTES.pdf
+README.html
+README.pdf
 
 # Xcode
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
 !default.mode1v3
-*.mode2v3
 !default.mode2v3
-*.perspectivev3
+!default.pbxuser
 !default.perspectivev3
-app/Recipe Robot.xcodeproj/project.xcworkspace/xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
 *.hmap
 *.ipa
-*.xcuserstate
-mailcore2/unittest/data
+*.mode1v3
+*.mode2v3
+*.moved-aside
 *.orig
+*.pbxuser
+*.perspectivev3
+*.xccheckout
+*.xcuserdatad
+*.xcuserstate
+build/
+DerivedData
 
 # Compiled Python scripts
 *.pyc
